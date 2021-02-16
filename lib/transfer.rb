@@ -19,7 +19,9 @@ class Transfer
       receiver.balance += amount
       sender.balance -= amount
       status.replace("complete")
-      binding.pry
+      if status ||= "complete"
+      end
+    end
   end
 
 end
