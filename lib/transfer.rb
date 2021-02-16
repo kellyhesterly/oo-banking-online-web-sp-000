@@ -12,6 +12,7 @@ class Transfer
 
   def valid?
     sender.amount
+    binding.pry
   end
 
 end
