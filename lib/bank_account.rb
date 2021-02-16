@@ -24,6 +24,7 @@ class BankAccount
   def close_account
     status.clear
     "closed"
+    binding.pry
   end
 
 end
