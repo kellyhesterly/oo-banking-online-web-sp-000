@@ -21,7 +21,6 @@ class Transfer
       sender.balance -= amount
     end
     status.replace("complete")
-    break if status == "complete"
   end
 
 end
