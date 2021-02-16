@@ -16,12 +16,15 @@ class Transfer
   end
 
   def execute_transaction
+    count = 0
+    if valid?
       receiver.balance += amount
       sender.balance -= amount
       status.replace("complete")
-      if status == "complete"
-        !execute_transaction
+      count += 1
     end
+    if count > 1
+      !execute_transaction
   end
 
 end
