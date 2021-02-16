@@ -11,7 +11,7 @@ class Transfer
   end
 
   def valid?
-    binding.pry
+    amount == amount && balance > 0
   end
 
 end
