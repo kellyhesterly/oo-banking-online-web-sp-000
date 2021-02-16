@@ -25,6 +25,7 @@ class Transfer
     end
     if count > 1
       !execute_transaction
+    end
   end
 
 end
