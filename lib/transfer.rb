@@ -11,7 +11,7 @@ class Transfer
   end
 
   def valid?
-    sender.amount
+    @sender.amount
     binding.pry
   end
 
