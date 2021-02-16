@@ -15,6 +15,6 @@ class BankAccount
 
   def display_balance
     puts "Your balance is $#{self.balanace}."
-    binding.pry
+    # binding.pry
   end
 end
