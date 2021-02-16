@@ -10,7 +10,7 @@ class BankAccount
   end
 
   def deposit(deposit_money)
-    new_deposit = @balance += deposit_money
+    @balance += deposit_money
   end
 
   def display_balance
