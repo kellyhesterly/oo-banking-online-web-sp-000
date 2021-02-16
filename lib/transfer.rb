@@ -28,6 +28,7 @@ class Transfer
       receiver.balance -= amount
       sender.balance += amount
       status.replace("reversed")
+    end
   end
 
 end
