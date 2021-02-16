@@ -21,6 +21,7 @@ class Transfer
       status.replace("complete")
       break if status == "complete"
     end
+    end
   end
 
 end
