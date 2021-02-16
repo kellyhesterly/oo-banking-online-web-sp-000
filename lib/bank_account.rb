@@ -10,7 +10,7 @@ class BankAccount
   end
 
   def deposit(money)
-    balance.to_i += money
+    balance. += money
     binding.pry
   end
 end
