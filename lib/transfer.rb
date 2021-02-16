@@ -11,6 +11,7 @@ class Transfer
   end
 
   def valid?
+    sender.amount
   end
 
 end
