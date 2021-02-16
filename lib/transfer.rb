@@ -27,6 +27,7 @@ class Transfer
     if execute_transaction
       receiver.balance -= amount
       sender.balance += amount
+      status.replace("reversed")
   end
 
 end
