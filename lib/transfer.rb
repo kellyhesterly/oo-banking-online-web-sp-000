@@ -20,7 +20,7 @@ class Transfer
       sender.balance -= amount
       status.replace("complete")
       if status == "complete"
-        break
+        !execute_transaction
     end
   end
 
