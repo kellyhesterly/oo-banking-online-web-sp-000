@@ -11,7 +11,7 @@ class Transfer
   end
 
   def valid?
-    amount == amount && bank_account.balance > 0
+    amount == amount && balance > 0
   end
 
 end
