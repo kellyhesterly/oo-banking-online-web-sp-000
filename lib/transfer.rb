@@ -12,6 +12,7 @@ class Transfer
 
   def valid?
     amount == amount
+    sender.valid? && receiver.valid?
   end
 
 end
