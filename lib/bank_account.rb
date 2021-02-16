@@ -14,7 +14,7 @@ class BankAccount
   end
 
   def display_balance
-    puts "Your balance is $#{new_deposit}."
+    puts "Your balance is $#{@balance}."
     # binding.pry
   end
 end
