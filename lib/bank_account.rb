@@ -14,5 +14,5 @@ class BankAccount
     binding.pry
   end
 
-  
+
 end
